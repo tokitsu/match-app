@@ -15,6 +15,7 @@ class ChatController < ApplicationController
     redirect_to action: :show, id: chat_room.id
   end
 
+  # showアクションを追加する
   def show
     # チャット相手の情報を取得する
     chat_room = ChatRoom.find_by(id: params[:id])

@@ -1,8 +1,3 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://coffeescript.org/
-
-
 if(/chat/.test(window.location.pathname)) {
   var path = window.location.pathname.split('/');
   var room_id = path[path.length - 1];
